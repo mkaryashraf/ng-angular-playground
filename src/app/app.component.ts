@@ -23,7 +23,7 @@ import { DataService } from './data.service';
      <li *ngIf="!myArr;else myothertemp">yeah I exist!</li>
   </ul>
   <ng-template #myothertemp> hopa lala</ng-template>
-  `*/,
+  `,*/
   templateUrl:'./app.component.html',
   stylesUrl: ['./app.component.css']
   /*[
