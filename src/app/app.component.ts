@@ -25,7 +25,7 @@ import { DataService } from './data.service';
   <ng-template #myothertemp> hopa lala</ng-template>
   `,*/
   templateUrl:'./app.component.html',
-  stylesUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css']
   /*[
   `
 .red-title{
