@@ -6,7 +6,7 @@ import { DataService } from './data.service';
   <h1>hey there</h1>
   <p>I am fine {{myObj.name}}</p>
   `,*/
-  template: '<h1>{{someProperty}}</h1>'
+//  template: '<h1>{{someProperty}}</h1>'
 
   /*`
   <!--<h1 [ngClass]="titleClassses">hey there</h1>
@@ -24,8 +24,9 @@ import { DataService } from './data.service';
   </ul>
   <ng-template #myothertemp> hopa lala</ng-template>
   `*/,
-  //templateUrl:'./app.component.html',
-  styles: [//['./app.component.css']
+  templateUrl:'./app.component.html',
+  stylesUrl: ['./app.component.css']
+  /*[
   `
 .red-title{
   color:red;
@@ -38,7 +39,7 @@ h1{
   font-style: italic;
 }
 
-  `]
+  `]*/
 })
 export class AppComponent {
 //  title = 'ng-angular-playground';
